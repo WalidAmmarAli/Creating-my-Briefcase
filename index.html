@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icons theme" class="toggle-theme-icon">
+          <p id="toggle-text" class="toggle-text">Dark Mode</p>
+        </div>
+       </div>
+
+       <div class="navbar">
+        <ul class="navbar--ul">
+          <li><a href="" class="texts"></a>Contact </li>
+          <li><a href="" class="texts"></a>about me</li>
+          <li><a href=""class="texts"></a>Project</li>
+        </ul>
+       </div>
+
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84% , 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(276,84%,56%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(46,84%,56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <div class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/foto.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Ammar Ali</h2>
+            <p class="card__subtitle ">Frond end and Back end developer.</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:ammaralialiwa@gmail.com">ammaralialiwa@gmail.com</a>
+            </div>
+
+            <div class="card__body">
+              <div class="card__link">
+                <i class="fas fa-phone-alt icon"></i>
+                <a href="tel:+50585938973">+50585938973</a>
+              </div>
+              <p class="card__text">
+                Mas de 2 años de experiencia en desarrollo web, Apasionado de las nuevas tecnologias y en especial del ecosistema de CSS y JavaScript. <br>
+                Mi proposito es aprender nuevas tecnologias y desarrollar mi carrera como desallador de software.
+              </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiance</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">Jun 2021 - feb 2023</p>
+              <h3 class="experience__job">Customer service & tecnical support</h3>
+              <p class="experience__description">Trabaje de suporte tecnico y servicio al cliente para Concentrix Nicaragua</p>
+            </div>
+          </div>
+        </article>
+        <!-- <article class="card card--experience">
+          <h2 class="card__title">Experiance</h2>
+          <div class="experience">
+            <img src="/portfolio-youtube-inicial/assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">Jun 2021 - feb 2023</p>
+              <h3 class="experience__job">Customer service & tecnical support</h3>
+              <p class="experience__description">Trabaje de suporte tecnico y servicio al cliente para Concentrix Nicaragua</p>
+            </div>
+          </div> -->
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="hobbie">
+            <h3 class="hobbie__title">biking</h3>
+            <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque molestias unde beatae, consequatur aliquid modi voluptatem vitae omnis cupiditate maxime iste magnam quia amet corporis nostrum id facere, nobis recusandae. At optio earum doloribus. Rerum quas minus repellat earum cumque eveniet praesentium officiis veritatis, iste, ipsa voluptatem, mollitia enim molestiae.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title ">Frond End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skill__start-level">0</span>
+            <span class="skill__start-level">2</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id1">Html</p>
+            <div class="skills__bar skill__bar--80 num1" ></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id7">Css</p>
+            <div class="skills__bar skill__bar--70"></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p id="colorChanges" class="skill__tech id3 ">JavaScript</p>
+            <div class="skills__bar skill__bar--60"></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id4">React</p>
+            <div class="skills__bar skill__bar--50"></div>
+           </div>
+          </div>
+
+        </article>
+        <article class="card">
+          <h2 class="card__title">Back End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skill__start-level">0</span>
+            <span class="skill__start-level">1</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id5">Java</p>
+            <div class="skills__bar skill__bar--40"></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id6">Node js</p>
+            <div class="skills__bar skill__bar--50"></div>
+           </div>
+          </div>
+
+
+
+        </article>
+        <article class="card">
+          <h2 class="card__title">Solf Skills</h2>
+
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id11">Team Work</p>
+            <div class="skills__bar skill__bar--90"></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id3" id="colorChange">Work Under Pressure</p>
+            <div class="skills__bar skill__bar--90"></div>
+           </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+            <p class="skill__tech id2">English</p>
+            <div class="skills__bar skill__bar--85"></div>
+           </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="coca" class="card__image coca">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag id9"> #Java</span>
+              <span class="project__tag id9" >#Swing</span>
+              <span class="project__tag id9 ">#Responsive</span>
+            </div>
+
+          <h2 class="card__title titlee">Coca Cola Interface</h2>
+          <div class="border">
+          <p class="card__text ma">Este es proyecto que realice cuando estaba aprendiendo Java, este proyecto no es para la empresa Cola Cola es un proyecto personal.</p>
+          <p class="card__text ma">utilece tecnoligas como java Swing con herencia de JFrame.</p>
+        </div>
+          <div class="buttons">
+            <a href="#" class="button button--primary id9">Demo</a>
+
+            <a href="https://github.com/WalidAmmarAli/Proyecto-Interfaz-Coca-Cola-Java" class="button id9 button--primary">Code</a>
+          </div>
+        </div>
+        </article>
+      </section>
+
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
